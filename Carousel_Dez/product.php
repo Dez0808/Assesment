@@ -208,6 +208,7 @@
         }
       });
     });
+// Additional code para pag may stock na 0, magiging disabled yung buy now button. so hindi na pwedeng i click yung buy now button kapag wala ng stock.
 
     function buyNow(id, name, price) {
       document.getElementById("modal").classList.add("active");
